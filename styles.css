@@ -1,39 +1,32 @@
-.bar-header {
+.bar-side-menu {
   background-color: #007480;
+}
+
+.bar-content {
+  background-color: white;
+}
+
+.bar-content .title {
+  color: #007480;
 }
 
 .ion-ionic:before {
   content: "\f3ea";
 }
 
-.ion-home {
-  color: #007480;
+ion-side-menu .item{
+  background-color: #007480;
+  color: white;
 }
 
-.ion-ios-bell {
-  color: #FAC04C;
-}
-
-.ion-chatbox {
-  color: #189D0E;
-}
-
-.ion-calendar {
-  color: #AB6FBF;
-}
-
-.ion-folder {
-  color: #FFE791;
-}
-
-.ion-earth {
-  color: green;
-}
-
-.ion-help-buoy {
-  color: red;
+ion-side-menu li.item {
+  background-color: #FFFFFF
 }
 
 .ion-log-out {
   color: red;
+}
+
+.bar-header .title {
+  background: url(http://imgh.us/horizontal_4.svg) no-repeat;
 }
